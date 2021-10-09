@@ -26,10 +26,10 @@ int main(void) {
 		if (PINA+PINB+PINC > 140) isOverWeight=0x01;
 		else isOverWeight=0x00;
 
-		if (-80 <= PINA-PINC && PINA-PINC <= 80) isBalanced=0x01;
-		else isBalanced=0x00;
+		if (-80 <= PINA-PINC && PINA-PINC <= 80) isBalanced=0x00;
+		else isBalanced=0x01;
 
-		PORTD = (sum & 0xFC) | (isBalanced << 1) | isOverWeight;
+		PORTD = ((sum>>2) & 0xFC) | (isBalanced << 1) | isOverWeight;
 	}
 	return 0;
 }
