@@ -1,7 +1,7 @@
-/*	Author: root
+/*	Author: Jackson Hoke
  *  Partner(s) Name: Jackson Hoke
  *	Lab Section: 022
- *	Assignment: Lab 2  Exercise 1
+ *	Assignment: Lab 2  Exercise 2
  *	Exercise Description: [optional - include for your own benefit]
  *
  *	I acknowledge all content contained herein, excluding template or example
